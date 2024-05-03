@@ -1,0 +1,12 @@
+{
+  "items": [
+    {
+      "name": "VOD (Static MPD)",
+      "submenu": [
+        {
+          "url": "192.168.0.xx/bbb_dash.mpd",
+          "name": "SegmentTemplate/Number, live profile",
+          "moreInfo": ""
+        }
+      ]
+}

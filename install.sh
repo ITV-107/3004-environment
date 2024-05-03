@@ -12,3 +12,15 @@ git clone https://github.com/mininet/mininet
 
 # Check the version number of mininet.
 mn --version
+
+# Install packages related to HTTP
+apt-get install apache2 curl
+
+# Kill it on the root system
+apache2ctl -k stop
+
+# copy contents of dash.js to apache file
+cp -vr ./dashjs /var/www/html
+
+# enable the running of the run file.
+chmod +x run.sh
