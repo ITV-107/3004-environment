@@ -13,8 +13,8 @@ git clone https://github.com/mininet/mininet
 # Check the version number of mininet.
 mn --version
 
-# Install packages related to HTTP
-apt-get install apache2 curl
+# Install packages related to HTTP and DASH
+apt-get install apache2 curl x264 ffmpeg gpac
 
 # Kill it on the root system
 apache2ctl -k stop
@@ -24,3 +24,7 @@ cp -vr ./dashjs /var/www/html
 
 # enable the running of the run file.
 chmod +x run.sh
+chmod +x make_dash.sh
+chmod +x add_qdisc.sh
+chmod +x cng_qdisc.sh
+chmod +x del_qdisc.sh
