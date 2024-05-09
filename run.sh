@@ -6,7 +6,7 @@ then
 fi
 
 apache2ctl -k stop
-python 3004-topo2.py $1
+python 3004-topo.py $1
 mn -c
 # Kill any remaining processes
 pgrep apache2 | xargs kill -9
