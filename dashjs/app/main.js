@@ -29,7 +29,7 @@ app.controller('DashController', function ($scope, sources, contributors) {
 
 
     $scope.selectedItem = {
-        url: "http://10.0.0.1/bbb_dash.mpd"
+        url: "http://192.168.0.xx/bbb_dash.mpd"
     };
 
     sources.query(function (data) {

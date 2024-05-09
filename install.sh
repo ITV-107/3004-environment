@@ -24,7 +24,8 @@ cp -vr ./dashjs /var/www/html
 
 # enable the running of the run file.
 chmod +x run.sh
+chmod +x run_ff.sh
 chmod +x make_dash.sh
+chmod +x replace_dash.sh
 chmod +x add_qdisc.sh
-chmod +x cng_qdisc.sh
 chmod +x del_qdisc.sh
