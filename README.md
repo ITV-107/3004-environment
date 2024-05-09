@@ -7,7 +7,7 @@ The Mininet environment for running the dashjs experiment for COMP3004
 2. `@root$ chmod +x install.sh`
 3. `@root$ sudo ./install.sh`
 4. `@root$ ./make_dash.sh`
-5. `@root$ sudo ./replace_dash.sh
+5. `@root$ sudo ./replace_dash.sh`
 
 ## Running experiment
 Make sure that https://github.com/ITV-107/3004-controller is running in another VM
