@@ -14,7 +14,7 @@ git clone https://github.com/mininet/mininet
 mn --version
 
 # Install packages related to HTTP and DASH
-apt-get install apache2 curl x264 ffmpeg gpac
+apt-get install apache2 curl x264 ffmpeg gpac iperf iproute
 
 # Kill it on the root system
 apache2ctl -k stop
